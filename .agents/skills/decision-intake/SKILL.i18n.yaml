@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/decision-intake-request-admission:
+  en: 23b989fd5b557461
+  zh: 6eac46d96a46beae
+/decision-intake-request-admission/step-1-read-the-source-of-truth:
+  en: 66b99294580228a4
+  zh: b267749785cfded1
+/decision-intake-request-admission/step-2-turn-the-request-into-candidate-judgments:
+  en: cf2c47f9accdca08
+  zh: 2b7bdf3078fa0434
+/decision-intake-request-admission/step-3-compare-against-scopes:
+  en: bf7349a1323bca28
+  zh: c41858ec241d6474
+/decision-intake-request-admission/step-4-conflict-exits-strictly-in-order:
+  en: a95eaecb9388a793
+  zh: b108bac496f0df0b
+/decision-intake-request-admission/step-5-report:
+  en: 12806d5888b56a60
+  zh: dba3e4a52432d5f5
+/decision-intake-request-admission/boundaries:
+  en: c6329e1361b731ab
+  zh: 336bc988a81dc2a4

@@ -1,0 +1,16 @@
+{
+  "name": "dsh-profiler",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "verify:secrets": "python3 scripts/verify-no-env.py",
+    "verify:docs": "node .agents/se/scripts/docs/verify-translation-pairing.ts",
+    "verify:decisions": "python3 .agents/se/scripts/decisions/verify.py",
+    "verify:links": "python3 .agents/se/scripts/decisions/verify_links.py",
+    "check": "pnpm run verify:secrets && pnpm run verify:docs && pnpm run verify:decisions && pnpm run verify:links",
+    "prepare": "git config core.hooksPath .githooks"
+  },
+  "type": "module"
+}

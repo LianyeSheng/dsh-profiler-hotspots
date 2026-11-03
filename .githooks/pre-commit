@@ -1,0 +1,13 @@
+#!/bin/sh
+# 本地门禁：双语配对 → 决策文档 → 链接，顺序固定；首个提交尚无 HEAD 时跳过依赖历史的两道。
+# 规则见 .agents/se/contracts/workflow.md#gates 与 .agents/se/contracts/anchor-convention.md。
+# 紧急绕过：git commit --no-verify（绕过率由 decision-audit 观察）
+set -e
+python3 scripts/verify-no-env.py
+node .agents/se/scripts/docs/verify-translation-pairing.ts
+if git rev-parse --verify --quiet HEAD >/dev/null; then
+  python3 .agents/se/scripts/decisions/verify.py --staged
+  python3 .agents/se/scripts/decisions/verify_links.py --staged
+else
+  echo "pre-commit: first commit; document and link gates need a comparison base, run them after the baseline exists" >&2
+fi

@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/translation-rules:
+  en: 6a8c9ae32e00b390
+  zh: 469a899357fe9360
+/translation-rules/faithfulness:
+  en: de745ec62f0f4f1d
+  zh: 321fa2a4a99c1767
+/translation-rules/structure-and-code:
+  en: 13d74ef1e0691395
+  zh: cea39473c590fe5a
+/translation-rules/terminology:
+  en: b1f5caba2a6f61e0
+  zh: 9c7bfb1c82c3c66f
+/translation-rules/chinese-typography:
+  en: 05107e0e72d349ef
+  zh: 379f90dcc2020770
+/translation-rules/patch-updates:
+  en: 3d0bf99a34f1ba4d
+  zh: 464ec9b5bb8237b2
+/translation-rules/quality-bar:
+  en: 33c3507744e48470
+  zh: 42534ac5aec02dde

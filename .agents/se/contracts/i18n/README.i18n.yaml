@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/bilingual-documentation:
+  en: f552257e5b6b7ce5
+  zh: a944870301c11813
+/bilingual-documentation/the-pairing-contract:
+  en: 2bedaaa165038502
+  zh: 07f1d8161e67ef24
+/bilingual-documentation/the-supported-markdown-subset:
+  en: 03bdf3f89e47f144
+  zh: 4c7fe87bbce294a2
+/bilingual-documentation/the-gate-verify-translation-pairing:
+  en: 475da6a9e94d7229
+  zh: 1def7f4ffec1c40f
+/bilingual-documentation/the-gate-verify-translation-pairing/p1-complete-pairs:
+  en: 9acf50f267cddf3f
+  zh: d119408a8c0b3089
+/bilingual-documentation/the-gate-verify-translation-pairing/p2-consistency-record:
+  en: aaef25d4ec64f614
+  zh: f6cf3bba301a4137
+/bilingual-documentation/the-gate-verify-translation-pairing/p3-language-switcher:
+  en: c98ee828b94bc1b9
+  zh: ce207fce1c4043d0
+/bilingual-documentation/the-gate-verify-translation-pairing/p4-structural-mirror:
+  en: 8fb11825c20ee231
+  zh: 18bc9123e498d8e3
+/bilingual-documentation/the-gate-verify-translation-pairing/p5-paired-document-link-locale:
+  en: 3bc146d7edb09d9a
+  zh: e23f40ed139138b8
+/bilingual-documentation/scope-and-exclusions:
+  en: 9d800df3ced28df7
+  zh: 67d21a64b7602254
+/bilingual-documentation/division-of-labor:
+  en: 0f00348a0ead1ee2
+  zh: f65ae90347ed6ba1

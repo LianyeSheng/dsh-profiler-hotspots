@@ -1,0 +1,35 @@
+# 决策：上限
+
+[English](/.agents/notes/proposed/<class>/<yyyy-mm-dd-slug>/proposal.md) | 中文
+
+状态：提案中
+
+提案作者：<稳定角色或 handle>
+
+## 问题
+
+**现象**：上限模糊。
+**代价**：调用不一致。
+
+## 提案
+
+采用 30 秒。
+
+## 作用域
+
+全部请求。
+
+## 考虑过的替代方案
+
+无限超时失去可预测性。
+
+## 验收标准
+
+拒绝更大数值。
+
+## 风险
+
+现有请求可能超过上限。
+<!-- example:begin id=timeout kind=walkthrough mode=optional -->
+A request with 31 seconds fails the 30-second cap.
+<!-- example:end id=timeout -->

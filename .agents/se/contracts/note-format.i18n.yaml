@@ -1,0 +1,166 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/decision-record-format-contract:
+  en: 90ff38e5ece3a31a
+  zh: 180543e371a9dbdd
+/decision-record-format-contract/0-bilingual:
+  en: cb8bc4cfcdc5a021
+  zh: b4cee97442caec6b
+/decision-record-format-contract/1-file-tree:
+  en: dfeca577b344d1b7
+  zh: cc93bf9177aa5bbf
+/decision-record-format-contract/1-file-tree/p1-path-shape:
+  en: 7812d4e70c8b251b
+  zh: f78d465c5b4ed502
+/decision-record-format-contract/1-file-tree/p2-lifecycle-segment-is-valid:
+  en: 72b8d9bfcdafc118
+  zh: de13849adee24327
+/decision-record-format-contract/1-file-tree/p3-class-segment-is-valid:
+  en: 662b63d3158e92c8
+  zh: dd23f7f755dbde10
+/decision-record-format-contract/1-file-tree/p4-date-segment-is-valid:
+  en: e26d8ce55f763734
+  zh: 81f705a753f3926c
+/decision-record-format-contract/1-file-tree/p5-slug-segment-is-valid:
+  en: 5a32d264d1727062
+  zh: 99792be0c8ed8b9b
+/decision-record-format-contract/2-header:
+  en: d7804ad446bdef34
+  zh: 3bf704a0ce91d194
+/decision-record-format-contract/2-header/h1-title-line:
+  en: 651572a284017cb0
+  zh: 3bc81546c64baed8
+/decision-record-format-contract/2-header/h2-blank-line-2:
+  en: 02ccf6bd023aec9e
+  zh: 2e9a06e77c26837a
+/decision-record-format-contract/2-header/h3-language-switcher-line:
+  en: ccb9e44ece036528
+  zh: 69681e247cb4e42d
+/decision-record-format-contract/2-header/h4-blank-line-4:
+  en: 5eede2ee1add3212
+  zh: e42565dc5f4f3950
+/decision-record-format-contract/2-header/h5-status-line-matches-the-directory:
+  en: 5f36b000bd2ce5bf
+  zh: 277c816876ad06de
+/decision-record-format-contract/2-header/h6-status-line-is-unique:
+  en: 04ea177e1062aa1e
+  zh: 53a8182a1cdafd12
+/decision-record-format-contract/2-header/h7-archive-line-required-under-archived:
+  en: 26a08848038134c4
+  zh: 07945372fc97080f
+/decision-record-format-contract/2-header/h8-archive-line-forbidden-outside-archived:
+  en: 2c1a8776c863b667
+  zh: 5b2b8c164891731d
+/decision-record-format-contract/3-body-sections:
+  en: 4704fc7b2360acd5
+  zh: 8967c38767d90687
+/decision-record-format-contract/3-body-sections/s1-the-first-section-is-the-problem:
+  en: 186558773fa4e4c4
+  zh: d9b8145dc9738813
+/decision-record-format-contract/3-body-sections/s2-sections-required-in-proposed:
+  en: 61da3f57d59d6691
+  zh: f8c90b6d1cd5ec50
+/decision-record-format-contract/3-body-sections/s3-sections-required-in-implemented:
+  en: 02b3e17cdfd5672e
+  zh: e5740b31cf921e1a
+/decision-record-format-contract/3-body-sections/s4-sections-required-in-rejected:
+  en: f266d999cc4d6756
+  zh: b6127103264262cb
+/decision-record-format-contract/3-body-sections/s5-non-empty-scope:
+  en: af5cce62fc7f3b50
+  zh: 08b831e6d3d2b4a1
+/decision-record-format-contract/3-body-sections/s6-non-empty-alternatives-considered:
+  en: 8562088286822a17
+  zh: 11c43b55f2329b07
+/decision-record-format-contract/3-body-sections/s7-implemented-forbids-proposal-phase-sections:
+  en: 50424ba1adf0bff0
+  zh: de7bd9ae9350b2cd
+/decision-record-format-contract/3-body-sections/c1-the-problem-separates-symptom-and-cost:
+  en: 86c251417152b732
+  zh: 22aee70607d15f06
+/decision-record-format-contract/3-body-sections/a1-archived-status-line:
+  en: 59de6cd1d0b9b7db
+  zh: 3e08aefb6e66057c
+/decision-record-format-contract/3-body-sections/a2-archived-is-frozen:
+  en: 51e5c0943f54c7b1
+  zh: 6453167279e689b5
+/decision-record-format-contract/4-status-transitions:
+  en: 4824e07b170ff925
+  zh: b6a72cf137adb0a1
+/decision-record-format-contract/4-status-transitions/proposed-implemented:
+  en: 2d55e443519f71f8
+  zh: f3dedb8d9186dc1a
+/decision-record-format-contract/4-status-transitions/proposed-rejected:
+  en: b9fa492438792c8b
+  zh: 0ca8b18e9bca53f9
+/decision-record-format-contract/4-status-transitions/implemented-archived:
+  en: 71f1a4a5239294d7
+  zh: 5d107506d95de23b
+/decision-record-format-contract/4-status-transitions/implemented-deletion:
+  en: add652dcf2809446
+  zh: 4aa4a7569005c346
+/decision-record-format-contract/4-status-transitions/merging-fully-superseded:
+  en: f865745483bf5ad9
+  zh: 9fea1e1b58973a35
+/decision-record-format-contract/5-archiving:
+  en: 00b800a4c3bfd36f
+  zh: 275db45a14ea59cb
+/decision-record-format-contract/6-cross-references:
+  en: 2ef68103f41bc43d
+  zh: f848458c676fe27e
+/decision-record-format-contract/6-cross-references/resolution-base:
+  en: 75065c47810971d6
+  zh: 4e8d4cbc94808223
+/decision-record-format-contract/7-judgment-requirements:
+  en: 9d9a378453feb5f4
+  zh: 62285711add4da0e
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group:
+  en: faed4159624abeea
+  zh: cd15771b67218cc3
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/e1-evidence-header:
+  en: 0c293f2d87d9fdc1
+  zh: 7b7936a8b366f462
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/e2-discussion-structure:
+  en: dccf2bdbb3175a2b
+  zh: 6ffad801991908a7
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/e3-proposal-reference:
+  en: 86cb46523a6f0f53
+  zh: 64ab8516d779c207
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/e4-reply-coverage:
+  en: 3f673194dea3ef60
+  zh: e8039df203e8ff66
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/e5-reply-completeness:
+  en: 5865acff1a6d8425
+  zh: f2bcde8426bf2c0c
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/e6-bilingual-identity:
+  en: 189d6876d0735067
+  zh: 18e9d212c424d21c
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/the-c-group-chain-yaml:
+  en: 3ce58e19dd126fbc
+  zh: a03616528b6f62ac
+/decision-record-format-contract/8-rfc-evidence-format-e1-e6-and-the-c-group/derived-overview-and-the-reference-cli:
+  en: 0e5e816f3ec4b1a4
+  zh: 3a4d5c602796a1fc
+/decision-record-format-contract/9-proposal-examples-x1-x5:
+  en: 3557e6eb7e41f281
+  zh: 1f81642a4f19becf
+/decision-record-format-contract/9-proposal-examples-x1-x5/x1-proposal-coverage:
+  en: 41d016713f753870
+  zh: b5dc4309cb83d260
+/decision-record-format-contract/9-proposal-examples-x1-x5/x2-marker-syntax:
+  en: 6dc08e5dd655851b
+  zh: 924d1483447fc2c8
+/decision-record-format-contract/9-proposal-examples-x1-x5/x3-substantive-content:
+  en: 33f52dbe0c070f04
+  zh: 2d3b225e1ddce5dc
+/decision-record-format-contract/9-proposal-examples-x1-x5/x4-typed-samples:
+  en: fb992cdb6e6fdf69
+  zh: b4060cbaa93d2e13
+/decision-record-format-contract/9-proposal-examples-x1-x5/x5-bilingual-correspondence:
+  en: 65f5d8d6d6ec226c
+  zh: 7bb097956c5701f8

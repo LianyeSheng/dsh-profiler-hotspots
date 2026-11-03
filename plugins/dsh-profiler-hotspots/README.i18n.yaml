@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/dsh-profiler-hotspots:
+  en: 0844c348f6ed5228
+  zh: 60fa0eedb10ccae5
+/dsh-profiler-hotspots/what-the-plugin-contributes:
+  en: 942184af6c56f353
+  zh: 6db1489bbc489a02
+/dsh-profiler-hotspots/search:
+  en: 93e2a000c6cd16ff
+  zh: 41aa8e54096d42ec
+/dsh-profiler-hotspots/workspace-and-session-list:
+  en: f84a56a31ac1b367
+  zh: 13a4c258e19abcbe
+/dsh-profiler-hotspots/package-layout:
+  en: 1fb9fb32b67f2731
+  zh: 6c462b7912f0a61c
+/dsh-profiler-hotspots/identifiers:
+  en: 1a1e02fbfc6fb1fd
+  zh: 43cdea5b5b8657fc
+/dsh-profiler-hotspots/configuration:
+  en: 6ea8c8892b0cd4a4
+  zh: 41def81ef4fa4f19
+/dsh-profiler-hotspots/limitations:
+  en: 403929738e830a22
+  zh: f8e250145c5dd859

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Execution hotspots",
+    "description": "Opens the execution hotspot analysis page: search workspaces and sessions in real time to locate execution hotspots."
+  }
+}

@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/decision-check-decision-compliance-check:
+  en: 30a941345e203c21
+  zh: 1d71de75dc8414ab
+/decision-check-decision-compliance-check/check-scope-only-constraints-machines-cannot-check-and-people-cannot-see-through:
+  en: 51d5f6e79760600d
+  zh: 4078d48f1fbe0313
+/decision-check-decision-compliance-check/input:
+  en: 14d160fbcc9174b3
+  zh: 704deaf6a0c025f4
+/decision-check-decision-compliance-check/steps:
+  en: 72ee7b4a17210bc8
+  zh: 3ca96c697be3fe24
+/decision-check-decision-compliance-check/three-states-and-their-rulings:
+  en: 3b137046baeb06c9
+  zh: 5d7eb04093400948
+/decision-check-decision-compliance-check/output:
+  en: e4ca40e8a501077d
+  zh: 56cb95495795d695
+/decision-check-decision-compliance-check/output/pass:
+  en: 86b4b6363475cdab
+  zh: 586102e1e106d8c0
+/decision-check-decision-compliance-check/output/findings:
+  en: dca9d618cb5144ac
+  zh: b045311f4dc20975
+/decision-check-decision-compliance-check/output/mixing-and-ordering:
+  en: 0c7266b55c9e5a70
+  zh: 70e63edd1e5fff9f
+/decision-check-decision-compliance-check/covered-but-not-violated:
+  en: 8f34313cdd30e027
+  zh: b902833e3b366ac3
+/decision-check-decision-compliance-check/where-the-output-goes:
+  en: 4ba932377c266be0
+  zh: 625782b9e0e9a0da
+/decision-check-decision-compliance-check/boundaries:
+  en: f78fc72bca0f9859
+  zh: d410404341df3577

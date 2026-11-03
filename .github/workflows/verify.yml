@@ -1,0 +1,56 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Reject tracked secret environment files
+        run: python3 scripts/verify-no-env.py
+      - name: Resolve comparison base
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE: ${{ github.event.before }}
+        run: |
+          if [ -n "$PR_BASE" ]; then
+            base="$PR_BASE"
+          elif [ -n "$PUSH_BASE" ] && [ "$PUSH_BASE" != "0000000000000000000000000000000000000000" ]; then
+            base="$PUSH_BASE"
+          elif git rev-parse --verify --quiet origin/main >/dev/null; then
+            base="$(git merge-base HEAD origin/main)"
+          else
+            base=""
+          fi
+          if [ -n "$base" ]; then
+            test "$(git cat-file -t "$base")" = commit
+            echo "RFC_COMPARE_BASE=$base" >> "$GITHUB_ENV"
+          fi
+      - name: 双语配对（先于决策文档校验）
+        run: node .agents/se/scripts/docs/verify-translation-pairing.ts
+      - name: 决策文档校验
+        env:
+          CI: ""
+        run: |
+          if [ -n "${RFC_COMPARE_BASE:-}" ]; then
+            python3 .agents/se/scripts/decisions/verify.py --base "$RFC_COMPARE_BASE"
+          else
+            python3 .agents/se/scripts/decisions/verify.py
+          fi
+      - name: 链接与锚点校验
+        env:
+          CI: ""
+        run: |
+          if [ -n "${RFC_COMPARE_BASE:-}" ]; then
+            python3 .agents/se/scripts/decisions/verify_links.py --base "$RFC_COMPARE_BASE"
+          else
+            python3 .agents/se/scripts/decisions/verify_links.py
+          fi

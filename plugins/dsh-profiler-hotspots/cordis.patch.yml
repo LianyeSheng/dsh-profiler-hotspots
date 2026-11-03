@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-profiler-hotspots
+      name: dsh-profiler-hotspots
+      config: {}

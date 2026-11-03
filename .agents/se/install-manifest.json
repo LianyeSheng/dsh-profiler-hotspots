@@ -1,0 +1,352 @@
+{
+  "kit_revision": "2026-11-03.1",
+  "components": [
+    "kit",
+    "workflow",
+    "bilingual-docs"
+  ],
+  "mode": "tracked",
+  "agents_md_created": true,
+  "files": [
+    {
+      "path": ".agents/se/README.i18n.yaml",
+      "sha256": "60da9f8abcb4262620cf474ed8d9ec81d1e6e3ad46d7f0777327314c23c82b8a",
+      "component": "kit"
+    },
+    {
+      "path": ".agents/se/README.md",
+      "sha256": "5642b701970231b0caffafa43d3e7e4416443c871a3a6bd5c2a578efd41a0e95",
+      "component": "kit"
+    },
+    {
+      "path": ".agents/se/README.zh.md",
+      "sha256": "a5d74422c823a7b4a498b3eb487bbe0c432946d087033b6c78dedb725a69b7b9",
+      "component": "kit"
+    },
+    {
+      "path": ".agents/se/scripts/kit/install.py",
+      "sha256": "0c3535f83c81c609ee85780146dad3f97686b35fb375200292a778afc7d39f52",
+      "component": "kit"
+    },
+    {
+      "path": ".agents/se/contracts/anchor-convention.i18n.yaml",
+      "sha256": "81e76e018d2aef3aa72fc5944a755d6e8effc689db4c655fd914cb2fe83b982d",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/anchor-convention.md",
+      "sha256": "77e9e564d79530a1d6cb5c9faff2e449de0247f02b33f883ea5d118d2488782a",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/anchor-convention.zh.md",
+      "sha256": "a96710f68bc07b633ab322a344760d4778ce2acdbd2698a1741283d961e0473c",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/note-format.i18n.yaml",
+      "sha256": "f72b72d2cb184efc4d819ddf16ef00dcddec1f126095ea3713f0371b1c360477",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/note-format.md",
+      "sha256": "6e6f62b8732692e1e1907df68ea78251027a90fbab8f50e60b30d78a4e540acb",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/note-format.zh.md",
+      "sha256": "9ac9f132fedfd6d036f3a52ac8cd9daf361c534ffc44fc14e2f2701ad3bb126b",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/review-checklist.i18n.yaml",
+      "sha256": "34d1f160e3a71d0fbbfa585c3cd247d389f68c5195a1ad513e44dc2e715f1b9f",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/review-checklist.md",
+      "sha256": "b11499b33021fec0ff54024ca32af1da941bc39ac1c9f805c12a8d78c5223409",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/review-checklist.zh.md",
+      "sha256": "0cc342781db5ecd10db4469f0aba8d6f5176a54c5ec527e1563771aa2b8f1a0e",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/workflow.i18n.yaml",
+      "sha256": "cfff138f6c739bdc873bfba8bfdafb1dfa15b154483c33bccd35afc339dfa199",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/workflow.md",
+      "sha256": "4e414b54a0072ff898aa9059fc85d5be8240a25f7965af272f83d53b7c00a061",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/workflow.zh.md",
+      "sha256": "869aa7ba15eeaf116924c98b2c3d7609a0d200e4636848cdb46a7ca8bebced20",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/chain.py",
+      "sha256": "3b4c8428a0c5fbe9c3de3e48191f96bc392fa4e2fb625c98b2aa21badd41a129",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/chain_data.py",
+      "sha256": "58f50c2da6318f8887038ce3b1a90b9b91c22e701aa4502056d50053193ae436",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/document_links.py",
+      "sha256": "a185dd8b991599938a16f2fce7243eb283e2ecd355dcd0367c3bbbe0daba778e",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/document_report.py",
+      "sha256": "fee6b1bbe202a6ca1fd81e200954f37562f4cbab086752450764835f3aff73d6",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/document_sources.py",
+      "sha256": "d06820a67e9bba582beabda740d4b276dabe9cbe7db0a6f971d1832fa1df6a4d",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/document_syntax.py",
+      "sha256": "93b0339b926d7c27ed407321a649e7d66ad0f8235a0b153e431b472621434d8f",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/document_validation.py",
+      "sha256": "9fc58b50f04f0685c5e6b9da70c306682b398228ffe19d74ff7b20f613b6a77b",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/migrate_chain.py",
+      "sha256": "223acff08d9ddbe5fa47c7c85f1cf39992e465239fa79cf1b418fade1a8a63ff",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/verify.py",
+      "sha256": "c7016fb4b7f1679a8b3b546431c06c83794d7351a0c712ce35ff03a58be9ca5d",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/scripts/decisions/verify_links.py",
+      "sha256": "658ecfc16b254e10d9d5fcbed965f0b5377cde67f672d896da59cec1154aa616",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/templates/discuss.md.tmpl",
+      "sha256": "c4d38fb2302b8e7ee19dd7db36e2d7939a5c92ffde2b2c91b643381d0ba40e5b",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/templates/discuss.zh.md.tmpl",
+      "sha256": "3371df401808bb01fe8780614cb3489ae0a6bb8f5ca35d44624dc5a8c2a273bf",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/templates/proposal.md.tmpl",
+      "sha256": "885c36ea4c6ccb2d7710ce269f6405c14e00d8a46e115368223b66f4e77837b3",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/templates/proposal.zh.md.tmpl",
+      "sha256": "5000bc93149feadb40353b660ec0af4a95ae654f93515bb759ac7efb811c9c23",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/templates/reply.md.tmpl",
+      "sha256": "3d7844b35eb042b311632b65918199bab5a772eb0d9bc92ed172cbf7e3a44f73",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/templates/reply.zh.md.tmpl",
+      "sha256": "9da2a85345413eafd3cda4c531ffe2f5ddce490bfd66126cf55bc92ec2649c40",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-audit/SKILL.i18n.yaml",
+      "sha256": "d06ba35bf101c16fb6e121bb7bce94f853b2f17592443caae1c7f013f13b30d2",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-audit/SKILL.md",
+      "sha256": "dbd26f1466cda82f71128f3a303aec873a18e1819f520c971cc36c694f00d97e",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-audit/SKILL.zh.md",
+      "sha256": "1904e99fa80834198fde3ee29a9a54dfc0f8586fdc0e86bdb450d66d47756800",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-check/SKILL.i18n.yaml",
+      "sha256": "acf95630f149213ded78d9bd5392fb08da75544ff2831a58982ddf5cee2847f9",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-check/SKILL.md",
+      "sha256": "56cf3ed9c58c9cd5d4f1f5ad5fcac68f1a20dbe1ff92c6df9f6a3fba551f2d65",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-check/SKILL.zh.md",
+      "sha256": "121ff5cbe873dc46767c7306aaaf967be5be665872c4ad933534e154b6fa40ab",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-intake/SKILL.i18n.yaml",
+      "sha256": "1c8fd35d7adfd5f34c6063e2ce3a05006c17f1540d31099c882af7c479ed2517",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-intake/SKILL.md",
+      "sha256": "b51a46d00f4ad1ae22d8991ba83095a7301e31870b98b3d8bbd95aea5203cb86",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-intake/SKILL.zh.md",
+      "sha256": "1ab1b6cb08afd01bf05fd340b0bc9bad53fb7328cb2d53abe5bf964d780418b0",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-revise/SKILL.i18n.yaml",
+      "sha256": "c4f7a2bc979704fd7181687d1a647fc249fbb0b5537e0b5b9cbe614ab382008a",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-revise/SKILL.md",
+      "sha256": "3ab7450ad9ff96dbecfcd8668b7898f0a596eb11985e1e3edc3c979d9773b913",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/decision-revise/SKILL.zh.md",
+      "sha256": "3afa3f06938ed3283c1693bf72dd18e3d0ee68b05c95991aec02b760861e7a22",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/design-discipline/SKILL.i18n.yaml",
+      "sha256": "d3bd85ed1a6aa5708a1fce4252ac6bf30e4d67862872d19d737ad712c7517518",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/design-discipline/SKILL.md",
+      "sha256": "66f2c2c6acdfdfa0a1e93cf33c4c79b7a9a59987e80284413a639d2c3ad69245",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/skills/design-discipline/SKILL.zh.md",
+      "sha256": "964bd6212b5d63ec9bdd6ae970d68d9f80e220a3416d5530f0648d8ba0011ec6",
+      "component": "workflow"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/README.i18n.yaml",
+      "sha256": "c3a62ea7fc1c3e10f18ca25d19b60833cf8c430e0e14b8298176a3f5014d532e",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/README.md",
+      "sha256": "5a31a827b58b9f4e211ffa77f4d10ee440f9219c9dad735c18149cac18d65588",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/README.zh.md",
+      "sha256": "ff71e61f87c0a498291b43df8f723854afb6edf231879456ec39abd7db534eaf",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/terminology.i18n.yaml",
+      "sha256": "d83f7f3c2690a2ce2ddb0ee4377bff5a05a2ea6f177d7705485cabd262246ec3",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/terminology.md",
+      "sha256": "02d2889812b9fa868978887c23843293ab803abb3b3aad072a54503418c4958b",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/terminology.zh.md",
+      "sha256": "1f06c14edf6cd06063408a2406e3ac849732c50375421cfe80ad8e7b74da5d49",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/translation-rules.i18n.yaml",
+      "sha256": "6aa3ae17e52ee3530bafd4af62696eb56dd8f205ebb8e49a7ea87fbaf742666f",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/translation-rules.md",
+      "sha256": "d89974ad8d520df3564b79214f5a70df0b017d4d180b4221726e9c1ef8462de4",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/contracts/i18n/translation-rules.zh.md",
+      "sha256": "eba1529463884b1cebe751530720fbd0419eaac96bd33d37dfbead8f80a644a5",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-hints-report.ts",
+      "sha256": "e96e73f2269f15b5714b169e85c57c6ce3609c41306cbef62941a5aed9127e5d",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-hints.ts",
+      "sha256": "b72c3d53ce493a4918c7e2eb38b59a898230ad7bbff6e2b9bdca53e1f16a82f5",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-links.ts",
+      "sha256": "3a5d9959c57f5bbac23904f1f3efdc4f2c4522b8c697c33d56918324383698d4",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-pairing-check.ts",
+      "sha256": "006ac9706135726b2354b9a8c3653b1289eb28402596ef9e9173daecab90a3f7",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-pairing-record.ts",
+      "sha256": "9df483e5ed04d3067ac3febf046e4d1c2069d404b094e1f49395dafed3deb106",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-pairing.manifest.json",
+      "sha256": "698d94421636cf5ab02f6ccf1133956c60f55b3b40f10fdffe05921acbe435aa",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/translation-pairing.ts",
+      "sha256": "06ca22bd7ed9c9c5f54f021f5396b23e21cd6ce85a96b7693788840f55df84ef",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/se/scripts/docs/verify-translation-pairing.ts",
+      "sha256": "d3ea7bf8bb3d4e39ae42a36f6bd2301c82c4b9b676935c89d8ad1d47ea916919",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/skills/update-bilingual-docs/SKILL.i18n.yaml",
+      "sha256": "026c4e334db50c8e98fcbc984295cf778295f39d1db4bfab21efc06609837096",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/skills/update-bilingual-docs/SKILL.md",
+      "sha256": "3887934c541fd9bdfee5b92ad4c8eaf5ac425910dab5f9766aa8b90892263b2c",
+      "component": "bilingual-docs"
+    },
+    {
+      "path": ".agents/skills/update-bilingual-docs/SKILL.zh.md",
+      "sha256": "76f688e536213ce87ca27a2b868cac3a3b5dc0d561fc19d8de2ba1ed416f7cdd",
+      "component": "bilingual-docs"
+    }
+  ],
+  "blocks": {
+    "kit": "c069035519e3f077f0de96efb0d7599f523b93df916cff4eb095656e2f29a604",
+    "workflow": "0c4e7ab62d227af37f1091c693d094f6f761ae9e1ad88b557605e1fcab503540",
+    "bilingual-docs": "2d52eade8afd1142c1f370e0afaf49278b4ebf44735904e4fb25259ad2b56b2f"
+  }
+}

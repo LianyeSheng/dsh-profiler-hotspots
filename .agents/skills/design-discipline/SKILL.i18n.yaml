@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/design-discipline-design-check:
+  en: 243ac947f9521363
+  zh: 157ec9e8163b5880
+/design-discipline-design-check/four-questions:
+  en: aef36cd887cf4a09
+  zh: f7a8f92adbd3cc2f
+/design-discipline-design-check/checks:
+  en: 16928ff4a026af45
+  zh: efc0f58b6bd9169c
+/design-discipline-design-check/where-tests-come-from:
+  en: f0d2ef6109fb3bea
+  zh: 16c335750d5e20ab
+/design-discipline-design-check/human-review-gate:
+  en: 55be385751fb8c8a
+  zh: b2f6831fba60c3bf
+/design-discipline-design-check/boundaries:
+  en: 87522e0bbebea321
+  zh: e8b5c02c6bf6bb71

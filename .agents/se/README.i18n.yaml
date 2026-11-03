@@ -1,0 +1,61 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/kit-adoption-guide:
+  en: cbb17b82b195d2e9
+  zh: be388ff29c61f991
+/kit-adoption-guide/what-the-kit-is:
+  en: 406c315e03a358bc
+  zh: 4f0be5aed89bb6f7
+/kit-adoption-guide/required-core-and-optional-components:
+  en: d652decb83c02b8d
+  zh: f1470c9a86ff629f
+/kit-adoption-guide/components:
+  en: 67bebafb3073e9f8
+  zh: fb59bfb9130fbb02
+/kit-adoption-guide/prerequisites:
+  en: 74436d4fc85f1514
+  zh: f40b3b4d139257c8
+/kit-adoption-guide/installing-from-the-kit-checkout:
+  en: ef07257cc0e2cb9b
+  zh: 8aedaa45914b6610
+/kit-adoption-guide/installing-from-the-kit-checkout/agents-md-blocks:
+  en: 968c6a6b24fb0191
+  zh: efe2cdc9353bcbdd
+/kit-adoption-guide/installing-from-the-kit-checkout/skill-name-collisions:
+  en: 969fcd8e4fbae182
+  zh: 97e680088e84f35a
+/kit-adoption-guide/walkthrough-a-new-repository:
+  en: c73bb8848464a056
+  zh: 875dd503737cacc9
+/kit-adoption-guide/walkthrough-an-existing-repository:
+  en: 26ae77f1d17651ce
+  zh: fd3088016b51746c
+/kit-adoption-guide/the-install-manifest:
+  en: 91bcaa246533203d
+  zh: 1c733edc3bb2ae66
+/kit-adoption-guide/the-install-manifest/installation-modes:
+  en: 8924c69ba6849184
+  zh: 65ae04afafd4f91a
+/kit-adoption-guide/updating:
+  en: 2650b2177bc79a85
+  zh: 647d39035ea0817d
+/kit-adoption-guide/removing:
+  en: 7f947c48341e78c9
+  zh: 73a660f43d0cc063
+/kit-adoption-guide/self-install-and-the-drift-gate:
+  en: ba7bc6f51f93e58a
+  zh: 53728b084e19ec0a
+/kit-adoption-guide/optional-dsh-plugin-dsh-se-cards:
+  en: 45b36d0321f08ac8
+  zh: 702633eb88c27fa5
+/kit-adoption-guide/optional-dsh-plugin-dsh-se-cards/validated-range-and-degradation:
+  en: 6cd110fffc7a7e6b
+  zh: 9393252b02c287a0
+/kit-adoption-guide/optional-dsh-plugin-dsh-se-cards/installing-and-removing-the-plugin:
+  en: 5c4586abbf91ae01
+  zh: 881101681bd393ce

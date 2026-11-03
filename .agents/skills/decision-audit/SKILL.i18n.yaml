@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/decision-audit-drift-inspection:
+  en: 9027e708a178729d
+  zh: a4406f829176ae48
+/decision-audit-drift-inspection/what-the-gates-already-cover-this-skill-does-not-check:
+  en: e22f6990fe19222e
+  zh: 2336955107b6a36e
+/decision-audit-drift-inspection/checklist:
+  en: 106278a3bebdd27c
+  zh: 68b3a07f0b8f51c4
+/decision-audit-drift-inspection/checklist/1-dead-decisions:
+  en: 0e7da1c39df4c8ea
+  zh: 1a9cc956692a320b
+/decision-audit-drift-inspection/checklist/2-orphan-implementation:
+  en: 630f4c298b264d31
+  zh: 4e524bd380b72a29
+/decision-audit-drift-inspection/checklist/3-still-in-force-after-archiving:
+  en: e5a1c0fafef970b0
+  zh: fe6511548b4d83e2
+/decision-audit-drift-inspection/checklist/4-bypass-rate:
+  en: 86ca6240f1e85593
+  zh: d6560d06f9354d5d
+/decision-audit-drift-inspection/checklist/5-debt-phase-transition:
+  en: b687fd761807a2a5
+  zh: 528f641b2908af24
+/decision-audit-drift-inspection/checklist/6-record-compliance:
+  en: bc085f837626e6cf
+  zh: 14e983561f65bccb
+/decision-audit-drift-inspection/checklist/7-dangling-proposals:
+  en: 1581d661246ecd9a
+  zh: ca689b2aadd7321e
+/decision-audit-drift-inspection/output:
+  en: 60b74a8c138e93c3
+  zh: 7e320aed0c55abbb
+/decision-audit-drift-inspection/boundaries:
+  en: bd0d3e5de593891e
+  zh: ae54605aed39483c

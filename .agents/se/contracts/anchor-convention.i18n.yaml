@@ -1,0 +1,52 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/anchor-and-link-contract:
+  en: b2c9c4ab9ef9a7d8
+  zh: b6c086f60473163c
+/anchor-and-link-contract/why-anchors-are-needed:
+  en: fe75b0874416fb07
+  zh: e7de9e5dd6d8b91c
+/anchor-and-link-contract/1-when-to-leave-an-anchor-in-code:
+  en: 65d54a028786f4bb
+  zh: fdeff61c19dc8855
+/anchor-and-link-contract/1-when-to-leave-an-anchor-in-code/j4-trigger-condition-executed-by-review-a-machine-cannot-check-it:
+  en: 84bdeb28043f4daa
+  zh: 9933b13e61d32f93
+/anchor-and-link-contract/2-the-shape-of-an-anchor:
+  en: af0d2f4e84249bf9
+  zh: 18ab33c8a63d9d3f
+/anchor-and-link-contract/2-the-shape-of-an-anchor/a3-shape:
+  en: 67009539664e1894
+  zh: 6b004180a2f01c72
+/anchor-and-link-contract/2-the-shape-of-an-anchor/a4-a-bare-prohibition-does-not-qualify:
+  en: 4b3cd966cfb1cded
+  zh: aeb90288e7d20ec8
+/anchor-and-link-contract/3-links:
+  en: ea63ce7610b3df6c
+  zh: 91b700dc59ca22a9
+/anchor-and-link-contract/3-links/l1-the-resolution-base-is-the-repository-root:
+  en: 350dc052a837e621
+  zh: 5887ba11fb83294a
+/anchor-and-link-contract/3-links/l2-markdown-links-carry-a-leading:
+  en: 4588d21c5f69d3b6
+  zh: 29835b4475b6e556
+/anchor-and-link-contract/3-links/l3-the-link-target-must-exist:
+  en: a534c7ac65fb1814
+  zh: 43166e887b708453
+/anchor-and-link-contract/3-links/l4-the-referenced-file-changed-in-this-change-hint-does-not-block:
+  en: f310111477161345
+  zh: b6399481a38423fd
+/anchor-and-link-contract/4-gate-behavior:
+  en: 82ecb92671dd479d
+  zh: 8eb2ef170d12d63f
+/anchor-and-link-contract/5-three-causes-of-broken-links-and-how-to-handle-them:
+  en: 35a18411d5c84774
+  zh: 4c0a5a3a09910c13
+/anchor-and-link-contract/6-division-of-labor-with-note-format-md:
+  en: cf827e4ee89eb40c
+  zh: f216cd4f34293702

@@ -1,0 +1,55 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/workflow-contract:
+  en: 4e4efa03171a5967
+  zh: bb200f441049b4c5
+/workflow-contract/contents:
+  en: 0b9968d11785726d
+  zh: 4acf47c519cdc489
+/workflow-contract/purpose-and-the-installed-tree:
+  en: d113fde086df10c2
+  zh: df944b0125f92b21
+/workflow-contract/rule-layers-and-promotion:
+  en: d492d708485f086f
+  zh: 0fb7852436ee1405
+/workflow-contract/request-classes:
+  en: 5476aef40b0c54b3
+  zh: 8451ea806de04fc5
+/workflow-contract/branch-and-event-history:
+  en: fd08c8a0c65b7515
+  zh: 2d22d698325a0b76
+/workflow-contract/records-evidence-approval-and-lifecycle:
+  en: 5c299b958a1eddc1
+  zh: 0279a03adec05f78
+/workflow-contract/evidence-citations:
+  en: 78bfcc0a59441067
+  zh: f390ec9d2a96d9bf
+/workflow-contract/reading-the-decisions-in-play:
+  en: 083b1525287c26ad
+  zh: 96871d59d5d28adb
+/workflow-contract/when-a-decision-record-is-warranted:
+  en: 78d4493e339650bf
+  zh: b6ea3096602aa488
+/workflow-contract/the-bypass-marker:
+  en: 7c9d94e66690c9e1
+  zh: 1c2dbc04b2697045
+/workflow-contract/delivery:
+  en: 59cf8bc66169d10c
+  zh: 468570685884b10e
+/workflow-contract/delivery-validation:
+  en: d2898d8585d582ba
+  zh: 581bcac10f54711c
+/workflow-contract/gate-order-and-the-unchecked-declaration:
+  en: 85d9c66e7b51ad5d
+  zh: f840eab9a9d613b9
+/workflow-contract/authority-and-conflicts:
+  en: 6f098e3eacfa6dc4
+  zh: 5c50a51fa2bf678b
+/workflow-contract/the-record-contracts:
+  en: fb80c85a6ccf16e7
+  zh: fdf035770b7b0f1f

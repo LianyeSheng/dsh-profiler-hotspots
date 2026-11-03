@@ -1,0 +1,35 @@
+# Decision: Cap
+
+English | [中文](/.agents/notes/proposed/<class>/<yyyy-mm-dd-slug>/proposal.zh.md)
+
+Status: proposed
+
+Proposal authors: <stable-role-or-handle>
+
+## Problem
+
+**Symptom**: Limit is vague.
+**Cost**: Inconsistent callers.
+
+## Proposal
+
+Use 30 seconds.
+
+## Scope
+
+All requests.
+
+## Alternatives considered
+
+An unbounded timeout loses predictability.
+
+## Acceptance criteria
+
+Reject larger values.
+
+## Risks
+
+Existing requests may exceed the cap.
+<!-- example:begin id=timeout kind=walkthrough mode=optional -->
+A request with 31 seconds fails the 30-second cap.
+<!-- example:end id=timeout -->

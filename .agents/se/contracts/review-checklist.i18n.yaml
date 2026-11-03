@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/review-checklist:
+  en: cd39c9971f06cf21
+  zh: 1096c0fd56d3c875
+/review-checklist/j1-write-a-record-only-when-a-decision-changed:
+  en: 554685b507cbba8d
+  zh: 998fe64cd8553bd2
+/review-checklist/j2-one-record-one-constraint-whose-violation-can-be-judged-independently:
+  en: d9e436001d526aba
+  zh: 41305269b70ef044
+/review-checklist/j3-alternatives-are-genuine-alternatives-not-straw-men:
+  en: 7ef55743a172d7ff
+  zh: c74416a5519b7e70
+/review-checklist/review-output:
+  en: f9f8ecea622c7d07
+  zh: d43b35bb331fa95b
+/review-checklist/who-executes-it:
+  en: 802e4bbbadd0439a
+  zh: bdee27e3fdd198c5

@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/agent-profiler-goal-and-responsibilities:
+  en: 8048dad50c701603
+  zh: 499f1180fbd707e8
+/agent-profiler-goal-and-responsibilities/goal:
+  en: 4d9e23a4fa77ce76
+  zh: 743d14f72b45aa60
+/agent-profiler-goal-and-responsibilities/cost-and-efficiency:
+  en: f35ed8ca63291f2c
+  zh: 0af8670a882c767a
+/agent-profiler-goal-and-responsibilities/the-boundary-of-judgment:
+  en: 281883e2dddeda71
+  zh: e3eb799e04b6f64e
+/agent-profiler-goal-and-responsibilities/responsibilities:
+  en: d36fb819e2aa0a74
+  zh: 445d54ad55fd7369

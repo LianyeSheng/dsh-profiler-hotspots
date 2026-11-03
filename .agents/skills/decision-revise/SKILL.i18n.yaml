@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record (sections keyed by the English heading slug path):
+# one entry per heading section, hashing each side's lines outside fenced code
+# blocks and excluding the language-switcher line, with paired-document link
+# targets normalized to a locale-neutral form. The header names no path, so the
+# same record is valid beside a pair's source and beside its installed copy.
+# After editing either side, re-record the pair:
+#   node .agents/se/scripts/docs/verify-translation-pairing.ts --write <pair>
+/decision-revise-landing-records:
+  en: 89b6a8acdafc9df5
+  zh: fa13aa73fc650b59
+/decision-revise-landing-records/invariants:
+  en: 70203350970f020a
+  zh: d66e7e5264814999
+/decision-revise-landing-records/initialization-greenfield-project:
+  en: 396ecc35dcbbf91c
+  zh: 3afd466809607cce
+/decision-revise-landing-records/requests-discussion-and-delivery:
+  en: 6f16fe7c73602e7f
+  zh: 5a1ddb5c0d12a790
+/decision-revise-landing-records/create:
+  en: f4cf5450ff9e5c84
+  zh: b76bbed75bf94ef9
+/decision-revise-landing-records/revise:
+  en: 9835777a8f9368e5
+  zh: 680d4bac2c1ca6bc
+/decision-revise-landing-records/merge-an-old-record-entirely-superseded:
+  en: 1c047f84b75b09a1
+  zh: 0f4f9b84364b53ef
+/decision-revise-landing-records/archive:
+  en: 93bac5e3bbf3edfd
+  zh: e98defe4ff61b723
+/decision-revise-landing-records/bootstrap-migrate-from-an-old-ledger:
+  en: 7ae2e47f0e1dbc9c
+  zh: 51966166ba90719b
+/decision-revise-landing-records/before-committing:
+  en: 22ae8030989b98ac
+  zh: bbc22d1302cbc35a
+/decision-revise-landing-records/boundaries:
+  en: 0618f892d1409713
+  zh: 87ede93529f228fe
